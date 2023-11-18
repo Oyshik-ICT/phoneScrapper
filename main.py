@@ -28,7 +28,7 @@ def find_matching_products(daraz_product_name, daraz_product_price, pbo_product_
 
 
 #Set up the WebDriver
-url = "https://www.daraz.com.bd/smartphones/?spm=a2a0e.home.cate_6.1.735212f7HQ2j9M"
+url = "https://www.daraz.com.bd/smartphones/?spm=a2a0e.home.cate_6.1.735212f7HQ2j9M"  #daraz web
 path = "/usr/bin/chromedriver"
 s = Service(path)
 options = webdriver.ChromeOptions()
